@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-import pickle
 from sklearn.model_selection import train_test_split
 from RandomForest import RandomForest
+import pickle
 
 diab_df = pd.read_csv('diabetes.csv')
 
